@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 15vh;
+    background-color: #141E46;
+}
+span{
+    color: rgb(10, 230, 28);
+}
+.logo{
+    height: 50px;
+    width: 15%;
+}
+.location{
+    margin: 1%;   
+}
+.deliverto{
+    width: 20%;
+}
+.deliverto p{
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+.searchbar{
+    width: 40%;
+    height: 60%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 3.5%;
+}
+.searchbar input{
+    width: 600px;
+    padding: 5px 10px;
+    border: 1 px solid black;
+    border-radius: 4px;
+}
+#searchbutton{
+    width: 15%;
+    display: grid;
+    place-items: center;
+    border-radius: 4px;
+}
+
+.accountndlist{
+    padding: 1%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    right: 1.5%;
+    width:  15%;
+    transition: background-color 0.5s ease;
+}
+.accountndlist a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.accountndlist:hover{
+    background-color: #60a37b;
+}
+.linkaccountndlist{
+    transition: color 0.5s ease ;
+}
+.linkaccountndlist:hover{
+    color: lime;
+}
+.orderndreplace{
+    padding: 1%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    right: 3%;
+    width: 15%;
+    transition: background-color 0.5s ease;
+}
+.orderndreplace:hover{
+    background-color:#60a37b;
+}
+.nodecoration{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    transition: color 0.5s ease;
+}
+.nodecoration:hover{
+    color: lime;
+}
+.cart{
+    display: flex;
+    position: relative;
+    right: 1%;
+    width: 6%;
+}
+.logo img{
+    height: 8vh;
+    width: auto;
+}
+#searchbutton{
+    cursor: pointer;
+}

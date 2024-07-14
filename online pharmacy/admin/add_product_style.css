@@ -1,0 +1,56 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 90%;
+    height: 82%;
+    background-color: white;
+    color: color;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: small;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 1;
+}
+.inp{
+    width:130%;
+    height: 25px;
+    border: 0.5px solid black;
+    border-radius: 2px;
+    background-color: #ebe9e9;
+}
+.Description{
+    border: 0.5px solid black;
+    width: 130%;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #ebe9e9;
+}
+.submit{
+    width: 40%;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.background{
+    min-height: 100vh; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+#category{
+    border: 0.5px solid black;
+    border-radius: 2%;
+}
